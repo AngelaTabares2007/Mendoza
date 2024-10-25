@@ -1,0 +1,34 @@
+body
+    {background-color: rgb(168, 255, 255);}
+h1
+    {color:rgb(0, 0, 255); font-size: 25px; text-align:center ; text-decoration: underline; text-shadow: 5px, 5px, 2px, grey;}
+h2
+    {font-size: 20px; text-align: left;color: rgb(0, 0, 255); font-weight: bold; font-style: italic;}
+p
+    {font-size: 14px;text-align: justify;color: rgb(40, 40, 40);font-family: Arial; text-indent: 1cm;}
+.boton{
+        display: inline-block;
+        border-radius: 200px;
+        padding: 10px 0px;
+        border: 10px;
+        border-style:outset;
+        text-align: center;
+        text-align: center;
+        background-color: rgb(142, 142, 255);
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        width: calc((100%/3) - 25px);
+}
+.boton:hover{
+        background-color: rgb(73, 73, 255);
+}
+footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+}
+table{
+    border: 1px;
+    border-color: black;
+    color: blanchedalmond;
+}
