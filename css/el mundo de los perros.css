@@ -17,7 +17,6 @@ p{
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
-    cursor:help;
 }
 table{
     text-align: center;
@@ -53,17 +52,6 @@ footer{
 body{
     
     background-size: 2cm;
-    background-image:repeating-linear-gradient(rgb(201, 201, 201),rgb(252, 160, 175),rgb(253, 141, 253));
-}
-.header{
-    text-align: right;
-}
-.header-title{
-    text-align: left;
-}
-header{
-    display: inline;
-    text-align: center;
 }
 iframe{
     border: 1px solid purple;
