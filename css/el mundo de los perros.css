@@ -1,4 +1,4 @@
-h1{
+h2{
     color: rgb(162, 0, 255);
     font-size: 40px;
     font-weight: bold;
@@ -6,12 +6,17 @@ h1{
     text-shadow: 5px 2px 4px rgb(149, 158, 231);
     font-family: 'Times New Roman', Times, serif;
 }
-h2{
+h3{
     color: rgb(228, 30, 211);
     font-size: 20px;
     font-weight: italic;
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
+}
+h1{ 
+    font-size: large;
+    color: blue;
+    width: 100%;
 }
 p{
     font-size: 15px;
@@ -52,6 +57,7 @@ footer{
 body{
     
     background-size: 2cm;
+    background-color: aquamarine;
 }
 iframe{
     border: 1px solid purple;
@@ -63,3 +69,31 @@ iframe{
 audio{ 
     text-align: center;
 }
+svg{
+    border: 2px;
+    border-color: black;
+    background-color: aqua;
+}
+@media screen and (max-width: 800px) {  
+    header {  
+        flex-direction: column;  
+        align-items: center;  
+        text-align: center;  
+    }  
+
+    header-image {  
+        width: 50%;  
+        margin-bottom: 20px;  
+    }  
+
+    header-title {  
+        width: 100%;  
+        margin-bottom: 20px;  
+    }  
+
+    header-svg {  
+        width: 100%;  
+        background-color: #f0f0f0;
+        padding: 10px;  
+    }  
+}  
