@@ -57,7 +57,7 @@ footer{
 body{
     
     background-size: 2cm;
-    background-color: aquamarine;
+    background-color: rgb(138, 255, 232);
 }
 iframe{
     border: 1px solid purple;
@@ -71,7 +71,7 @@ audio{
 }
 svg{
     border: 2px;
-    border-color: black;
+    border-color: rgb(0,0,0);
     background-color: aqua;
 }
 @media screen and (max-width: 800px) {  
